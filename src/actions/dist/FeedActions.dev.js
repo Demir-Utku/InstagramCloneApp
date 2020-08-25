@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.getFeed=void 0;var _types=require("./types");var _api=require("./api");var getFeed=function getFeed(params){return function(dispatch){(0,_api.get)(_types.BASE_URL.concat('/api/characters'),params,dispatch,_types.FEED_START,_types.FEED_SUCCESS,_types.FEED_FAILD);};};exports.getFeed=getFeed;

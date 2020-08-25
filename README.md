@@ -4,4 +4,4 @@ Instagram clone app includes login, register, and feed pages using React Native 
 
 React router, navigation, redux, redux-thunk are used.
 
-I used an API in this project. API file (api.makefile) and API details are included in the repository.
+I used an API in this project. API file and API details are included in the repository.
